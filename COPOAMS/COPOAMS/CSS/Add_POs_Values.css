@@ -1,0 +1,21 @@
+﻿body
+{
+    background: #87CEFA;
+}
+
+#Label1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Label2, #Label3, #Label4, #Label5, #Label6, #Label7, #Label8, #Label9, #Label10, #Label11, #Label12, #Label13, #Label14, #Label15, #Label16, #Label17, #Label18, #Label19
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#batch, #semester, #subject_code, #co, #po1, #po2, #po3, #po4, #po5, #po6, #po7, #po8, #po9, #po10, #po11, #po12, #Button1, #Button2, #Button3
+{
+    font-size: larger;
+}

@@ -1,0 +1,21 @@
+﻿body
+{
+    background: #87CEFA;
+}
+
+#Label1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Label2, #Label3, #Label4, #Label5, #Label6, #Label7, #Label8, #Label9, #Label10, #Label11, #Label12, #Label13, #Label14, #Label15
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#batch, #semester, #subject_code, #ia_number, #usn, #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #asgn, #Button1, #Button2, #Button3
+{
+    font-size: larger;
+}
