@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB9A167E-7CAD-4152-8A15-622619FF7FC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>COPOAMS</RootNamespace>
+    <AssemblyName>COPOAMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Add_External_Marks.aspx" />
+    <Content Include="Add_IA_COs.aspx" />
+    <Content Include="Add_IA_Marks.aspx" />
+    <Content Include="Add_POs_Values.aspx" />
+    <Content Include="bootstrap-4.0.0-dist\css\bootstrap-grid.css" />
+    <Content Include="bootstrap-4.0.0-dist\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap-4.0.0-dist\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap-4.0.0-dist\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap-4.0.0-dist\css\bootstrap.css" />
+    <Content Include="bootstrap-4.0.0-dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap-4.0.0-dist\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap-4.0.0-dist\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap-4.0.0-dist\js\bootstrap.js" />
+    <Content Include="bootstrap-4.0.0-dist\js\bootstrap.min.js" />
+    <Content Include="Calculate_CO_Values.aspx" />
+    <Content Include="Calculate_PO_Values.aspx" />
+    <Content Include="CO_Final_Result_Values.aspx" />
+    <Content Include="CSS\Add_External_Marks.css" />
+    <Content Include="CSS\Add_IA_COs.css" />
+    <Content Include="CSS\Add_IA_Marks.css" />
+    <Content Include="CSS\Add_POs_Values.css" />
+    <Content Include="CSS\Calculate_CO_Values.css" />
+    <Content Include="CSS\Calculate_PO_Values.css" />
+    <Content Include="CSS\CO_Final_Result_Values.css" />
+    <Content Include="CSS\External_Exam_Result.css" />
+    <Content Include="CSS\HomePage.css" />
+    <Content Include="CSS\New_Student.css" />
+    <Content Include="CSS\New_Subject.css" />
+    <Content Include="CSS\PO_Final_Result_Values.css" />
+    <Content Include="CSS\Show_External_Marks.css" />
+    <Content Include="CSS\Show_IA_COs.css" />
+    <Content Include="CSS\Show_IA_Marks.css" />
+    <Content Include="CSS\Show_PO_Details.css" />
+    <Content Include="CSS\Show_Students.css" />
+    <Content Include="CSS\Show_Subjects.css" />
+    <Content Include="External_Exam_Result.aspx" />
+    <Content Include="Home_Page.aspx" />
+    <Content Include="Images\bmsit.jpg" />
+    <Content Include="Images\bmslogo.png" />
+    <Content Include="New_Student.aspx" />
+    <Content Include="New_Subject.aspx" />
+    <Content Include="PO_Final_Result_Values.aspx" />
+    <Content Include="Show_External_Marks.aspx" />
+    <Content Include="Show_IA_COs.aspx" />
+    <Content Include="Show_IA_Marks.aspx" />
+    <Content Include="Show_PO_Details.aspx" />
+    <Content Include="Show_Subjects.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Show_Students.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_External_Marks.aspx.cs">
+      <DependentUpon>Add_External_Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_External_Marks.aspx.designer.cs">
+      <DependentUpon>Add_External_Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_IA_COs.aspx.cs">
+      <DependentUpon>Add_IA_COs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_IA_COs.aspx.designer.cs">
+      <DependentUpon>Add_IA_COs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_IA_Marks.aspx.cs">
+      <DependentUpon>Add_IA_Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_IA_Marks.aspx.designer.cs">
+      <DependentUpon>Add_IA_Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_POs_Values.aspx.cs">
+      <DependentUpon>Add_POs_Values.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_POs_Values.aspx.designer.cs">
+      <DependentUpon>Add_POs_Values.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculate_CO_Values.aspx.cs">
+      <DependentUpon>Calculate_CO_Values.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculate_CO_Values.aspx.designer.cs">
+      <DependentUpon>Calculate_CO_Values.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculate_PO_Values.aspx.cs">
+      <DependentUpon>Calculate_PO_Values.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculate_PO_Values.aspx.designer.cs">
+      <DependentUpon>Calculate_PO_Values.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO_Final_Result_Values.aspx.cs">
+      <DependentUpon>CO_Final_Result_Values.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO_Final_Result_Values.aspx.designer.cs">
+      <DependentUpon>CO_Final_Result_Values.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="External_Exam_Result.aspx.cs">
+      <DependentUpon>External_Exam_Result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="External_Exam_Result.aspx.designer.cs">
+      <DependentUpon>External_Exam_Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Page.aspx.cs">
+      <DependentUpon>Home_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Page.aspx.designer.cs">
+      <DependentUpon>Home_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New_Student.aspx.cs">
+      <DependentUpon>New_Student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New_Student.aspx.designer.cs">
+      <DependentUpon>New_Student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New_Subject.aspx.cs">
+      <DependentUpon>New_Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New_Subject.aspx.designer.cs">
+      <DependentUpon>New_Subject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PO_Final_Result_Values.aspx.cs">
+      <DependentUpon>PO_Final_Result_Values.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PO_Final_Result_Values.aspx.designer.cs">
+      <DependentUpon>PO_Final_Result_Values.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show_External_Marks.aspx.cs">
+      <DependentUpon>Show_External_Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show_External_Marks.aspx.designer.cs">
+      <DependentUpon>Show_External_Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show_IA_COs.aspx.cs">
+      <DependentUpon>Show_IA_COs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show_IA_COs.aspx.designer.cs">
+      <DependentUpon>Show_IA_COs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show_IA_Marks.aspx.cs">
+      <DependentUpon>Show_IA_Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show_IA_Marks.aspx.designer.cs">
+      <DependentUpon>Show_IA_Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show_PO_Details.aspx.cs">
+      <DependentUpon>Show_PO_Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show_PO_Details.aspx.designer.cs">
+      <DependentUpon>Show_PO_Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Students.aspx.cs">
+      <DependentUpon>Show_Students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show_Students.aspx.designer.cs">
+      <DependentUpon>Show_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Subjects.aspx.cs">
+      <DependentUpon>Show_Subjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show_Subjects.aspx.designer.cs">
+      <DependentUpon>Show_Subjects.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bootstrap-4.0.0-dist\css\bootstrap-grid.css.map" />
+    <None Include="bootstrap-4.0.0-dist\css\bootstrap-grid.min.css.map" />
+    <None Include="bootstrap-4.0.0-dist\css\bootstrap-reboot.css.map" />
+    <None Include="bootstrap-4.0.0-dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="bootstrap-4.0.0-dist\css\bootstrap.css.map" />
+    <None Include="bootstrap-4.0.0-dist\css\bootstrap.min.css.map" />
+    <None Include="bootstrap-4.0.0-dist\js\bootstrap.bundle.js.map" />
+    <None Include="bootstrap-4.0.0-dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="bootstrap-4.0.0-dist\js\bootstrap.js.map" />
+    <None Include="bootstrap-4.0.0-dist\js\bootstrap.min.js.map" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50765</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
