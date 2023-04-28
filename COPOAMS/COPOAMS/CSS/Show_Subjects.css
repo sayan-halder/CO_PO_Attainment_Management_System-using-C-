@@ -1,0 +1,21 @@
+﻿body
+{
+    background: #87CEFA;
+}
+
+#Label1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Label2, #Label3
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#batch, #semester, #subject_code, #co, #Button1, #Button2
+{
+    font-size: larger;
+}

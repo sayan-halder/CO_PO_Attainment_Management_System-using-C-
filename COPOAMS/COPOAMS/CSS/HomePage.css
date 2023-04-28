@@ -1,0 +1,86 @@
+﻿#form1
+{
+    margin-bottom: 7px;
+}
+
+body
+{
+    background: #87CEFA;
+}
+
+.column1
+{
+    float: left;
+    width: 31%;
+    padding: 5px;
+    height: 662px;
+}
+
+.column2
+{
+    float: left;
+    width: 67%;
+    padding: 5px;
+    height: 659px;
+}
+
+.row
+{
+    height: 672px;
+    margin-bottom: 0px;
+}
+
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#Button1, #Button2, #Button3, #Button4, #Button5, #Button6, #Button7, #Button8, #Button9, #Button10, #Button11
+{
+    font-size: larger;
+}
+
+.ParentMenu, .ParentMenu:hover
+{
+    width: 360px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.ParentMenu:hover
+{
+    background-color: #ccc;
+}
+
+.ChildMenu, .ChildMenu:hover
+{
+    width: 376px;
+    background-color: #fff;
+    color: #333;
+    /*text-align: center;*/
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+  
+.ChildMenu:hover
+{
+    background-color: #ccc;
+}
+  
+.selected, .selected:hover
+{
+    background-color: #A6A6A6 !important;
+    color: #fff;
+}
+  
+.level2
+{
+    background-color: #fff;
+}
